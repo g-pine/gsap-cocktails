@@ -51,7 +51,7 @@ const Hero = () => {
                 start: startValue,
                 end: endValue,
                 scrub: true,
-                pin: true,
+                pin : true,
             }
         });
 
