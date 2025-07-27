@@ -65,7 +65,7 @@ const Hero = () => {
   return (
     <>
         <section id="hero" className="noisy">
-            <h1 className='title'>
+            <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-white/80 to-white/10'>
                 Mojito
             </h1>
             <img
@@ -95,7 +95,7 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-        <div className="video absolute inset-0">
+        <div className="video absolute inset-4">
             <video
                 ref={videoRef}
                 muted 

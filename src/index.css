@@ -132,9 +132,18 @@ body {
         }
     }
 
-    video {
+    /* video {
         @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover;
+    } */
+
+    video {
+    @apply w-full md:h-[70%] h-1/2 absolute bottom-0 left-0 
+           md:object-contain object-bottom object-cover 
+           rounded-2xl;
+    -webkit-mask-image: linear-gradient(to top, transparent, black 20%, black 80%, transparent);
+    mask-image: linear-gradient(to top, transparent, black 20%, black 80%, transparent);
     }
+
 
     #cocktails {
         @apply relative min-h-dvh w-full overflow-hidden;
