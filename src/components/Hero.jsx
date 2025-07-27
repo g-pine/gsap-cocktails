@@ -65,7 +65,7 @@ const Hero = () => {
   return (
     <>
         <section id="hero" className="noisy">
-            <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-white/80 to-white/10'>
+            <h1 className='title'>
                 Mojito
             </h1>
             <img
@@ -102,7 +102,6 @@ const Hero = () => {
                 playsInline
                 preload="auto"
                 src="/videos/output.mp4"
-                type="video/mp4"
             />
         </div>
     </>
