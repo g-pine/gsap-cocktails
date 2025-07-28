@@ -66,8 +66,8 @@ const Menu = () => {
             })}
         </nav>
         <div className='content'>
-            <div className='arrow'>
-`               <button className='text-left' onClick={() => goToSlide(currentIndex - 1)}>
+            <div className='arrows'>
+                <button className='text-left' onClick={() => goToSlide(currentIndex - 1)}>
                     <span>{prevCocktail.name}</span>
                     <img
                         src="/images/right-arrow.png" alt='right-arrow' aria-hidden="true"  
